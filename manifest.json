@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Operations Extension",
+  "version": "1.0",
+  "description": "A Chrome extension with various operations",
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}

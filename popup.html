@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operations Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    #date-container,
+    #select-ldap,
+    #select-bug,
+    #start-btn,
+    #pause-btn,
+    #stop-btn,
+    #resume-btn {
+      margin-bottom: 10px;
+    }
+    body {
+      width: 140px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div id="date-container"></div>
+  
+  <label for="select-ldap">Select wrangler LDAP:</label>
+  <select id="select-ldap"></select><br>
+
+  <label for="select-bug">Select bug ID:</label>
+  <select id="select-bug"></select>
+
+  <button id="start-btn">Start Operations</button>
+  <button id="pause-btn">Pause Operations</button>
+  <button id="stop-btn">Stop Operations</button>
+  <button id="resume-btn">Resume Operations</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
